@@ -1,2 +1,16 @@
-# Movie-Search-API-Backend-
-Design and implement a RESTful API using FastAPI and Pydantic that enables users to search for movies by various criteria. The service  fetch data from at least two free external movie data providers.
+# Movie Search API
+
+A RESTful API for searching movies across OMDB and TMDB databases.
+
+## Features
+
+- Search movies by title, actors, type, genre, and year
+- Aggregates results from multiple movie databases
+- Well-structured JSON responses with proper error handling
+
+## Setup
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/movie-search-api.git
+   cd movie-search-api
